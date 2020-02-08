@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d81b60</color>
+    <color name="colorPrimaryDark">#a00037</color>
+    <color name="colorAccent">#ff5c8d</color>
+
+    <color name="colorTheft">#ffffbb33</color>
+    <color name="colorAssault">#ffaa66cc</color>
+    <color name="colorAccident">#ff669900</color>
+    <color name="colorDispute">#ff0099cc</color>
+    <color name="colorEmergency">#ffcc0000</color>
+    <color name="colorMiscellaneous">#aaa</color>
+</resources>

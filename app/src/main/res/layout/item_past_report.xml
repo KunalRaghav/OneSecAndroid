@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:contentPadding="8dp"
+        android:id="@+id/pastReportCard"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:id="@+id/reportTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Assault"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+        <TextView
+            android:id="@+id/pastReportDescription"
+            tools:text="sjsjdkjskdjksdjkj"
+            android:layout_marginTop="28dp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"/>
+        <FrameLayout
+            android:id="@+id/colorLabel"
+            android:background="@android:color/white"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|end"/>
+        <TextView
+            android:id="@+id/timeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="kjhjjhjh"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="8dp"/>
+    </com.google.android.material.card.MaterialCardView>
+</layout>
